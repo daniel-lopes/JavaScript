@@ -1,0 +1,58 @@
+	body{
+			background:#E6E6FA;
+			font-family: arial;
+
+		}
+
+		#linha	{
+			position:absolute;
+			border: solid 1px #555555;
+			left:432px;
+			top:0px;
+			height: 99.6vh;
+
+
+		}
+
+		#dados	{
+			position:absolute;
+			top:80px;
+
+		}
+
+		#nome	{
+			position:absolute;
+			left:67px;
+			top:-7px;
+			color:#ffffff;
+
+		}
+
+		meumenu	{
+			color:#ffffff;
+			position:fixed;
+			margin: 0px;
+			margin-left: -15px;
+			width:100%;
+			height:44px;
+			top:0px;
+			padding:6px;
+			background:#181860;
+
+		}
+
+		#foto1{
+			position:fixed;
+			top:139px;
+			left:583px;
+		}
+
+		#foto2{
+			position:fixed;
+			top:90px;
+			left:13px;
+		}
+		
+		h1{
+			color:#074F07;
+		}

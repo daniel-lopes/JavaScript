@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>NOVA VERSÂ0 2.0</title>
+<meta charset=utf-8>
+<link rel="stylesheet" href="estilo.css">
+<script src="script.js" type="text/javascript"></script>
+
+</head>
+
+<body scrolling="no">
+	<div id="dados">
+		<form name="dados">
+			<h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;alário líquido</h1>
+			<fieldset>
+				Seu salário (bruto) R$: <input type="number" name ="ss" size= 3> <input type="button" value="Verificar" onclick="salario()"><br>
+				Você ganha <input type="text" name="ganha" size=3 disabled> salários mínimos.<br>
+				INSS R$:<input type="text" name="calculoinss" size= 6 disabled><br>
+				Imposto de renda R$: <input type="text" name="ir" size=6 disabled><br>
+				FGTS R$: <input type="text" name="fgts" size=6 disabled><br>
+				Vale transporte R$:<input type="text" name="vt" size=6 disabled><br>
+				Salário líquido R$: <input type="text" name="sl" size=6 disabled><br>
+				Plano de Saúde : <select>
+				<option value="Básico">Básico</option>
+				<option value="Médio">Médio</option>
+				<option value="Top">Top</option>
+			</select>
+		</fieldset>
+
+		<div id="foto1">
+			<img src="contando-dinheiro-real.jpg"><br><br>
+			<p id="texto" onmouseover="mouse_in()" onmouseout="mouse_out()">
+				<b>O jeito mais fácil e rápido de você calcular seu salário líquido, sem<br>
+					&nbsp;ter dor de cabeça,de forma simples, seguro e totalmente gratuito.</b>
+				</p>
+			</div>
+
+			<div id="foto2">
+				<img src="cifrao_animado.gif">
+			</div>
+		</div>
+	</form>
+
+	<div id="linha"></div>
+
+	<meumenu>
+		<div id="nome">
+			<h2>&nbsp;&nbsp;&nbsp;&nbsp;Calculadora de Salário Líquido</h2>
+		</div>
+
+	</meumenu>
+</body>
+</html>
